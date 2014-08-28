@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SemanticMap taskResultId="677826880" baseUrl="MonitoringOnline/Announcements.aspx?trid=677826880&amp;tid=80215" state="OK">
+ <GraphObjects>
+  <GraphObject id="1" name="Колокольцев Владимир Александрович" color="0xFF9900" documentsCount="149" />
+  <GraphObject id="2" name="Лавров Сергей Викторович" color="0xFF3333" documentsCount="2032" />
+     <GraphObject id="6" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+     <GraphObject id="7" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+     <GraphObject id="8" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+     <GraphObject id="9" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+     <GraphObject id="10" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+     <GraphObject id="3" name="Мединский Владимир Ростиславович" color="0xCC3366" documentsCount="537" />
+  <GraphObject id="4" name="Силуанов Антон Германович" color="0xCC66CC" documentsCount="245" />
+  <GraphObject id="5" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+
+ </GraphObjects>
+ <GraphLinks>
+  <GraphLink fromId="1" toId="2" documentsCount="328" />
+  <GraphLink fromId="1" toId="4" documentsCount="246" />
+     <GraphLink fromId="2" toId="9" documentsCount="341" />
+     <GraphLink fromId="3" toId="8" documentsCount="311" />
+  <GraphLink fromId="2" toId="3" documentsCount="333" />
+  <GraphLink fromId="2" toId="4" documentsCount="743" />
+  <GraphLink fromId="3" toId="5" documentsCount="230" />
+
+  <GraphLink fromId="9" toId="10" documentsCount="1" />
+
+  <GraphLink fromId="4" toId="9" documentsCount="134" />
+  <GraphLink fromId="4" toId="10" documentsCount="144" />
+     <GraphLink fromId="3" toId="6" documentsCount="434" />
+     <GraphLink fromId="5" toId="6" documentsCount="334" />
+     <GraphLink fromId="5" toId="7" documentsCount="130" />
+     <GraphLink fromId="7" toId="8" documentsCount="41" />
+     <GraphLink fromId="7" toId="9" documentsCount="10" />
+     <GraphLink fromId="7" toId="10" documentsCount="341" />
+     <GraphLink fromId="8" toId="9" documentsCount="441" />
+ </GraphLinks>
+</SemanticMap>

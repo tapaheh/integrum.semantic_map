@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    min-width: 980px
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+    color: black;
+    background-color: white;
+    display: block;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0px 15px -35px;
+    height: auto;
+}
+
+#menu-header-container {
+    padding-top: 15px;
+    background: #eee;
+    margin-top: 15px;
+
+}
+
+#menu-header-container > div {
+    background: #eee;
+}
+
+.companie-name {
+    font-size: 28px;
+    margin: 15px 0px;
+}
+
+.search-form-ui {
+    border-radius: 8px;
+    background: rgb(238, 238, 238);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.page-header {
+    padding: 6px 0px 0px 10px;
+    height: 40px;
+}
+
+.page-header {
+    margin: 18px 0 27px;
+}
+
+.page-header-title {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.content-table {
+    width: 100%;
+}
+
+.content-left {
+    vertical-align: top;
+}
+
+.menu-right {
+    vertical-align: top;
+    width: 272px;
+}
+
+.main-menu-vertical {
+    margin: 0px 0px 15px 25px;
+    width: 272px;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-menu-vertical li .item-header {
+    line-height: 24px;
+}
+
+.main-menu-vertical ul ul {
+    padding-left: 1em;
+}
+
+.main-menu-vertical ul ul li {
+    font-size: 9pt;
+    font-weight: normal;
+    line-height: 20px;
+}
+#canvas {
+    border: 1px solid #ddd;
+}

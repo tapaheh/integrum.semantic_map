@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SemanticMap taskResultId="677826880" baseUrl="MonitoringOnline/Announcements.aspx?trid=677826880&amp;tid=80215" state="OK">
+ <GraphObjects>
+  <GraphObject id="788776764" name="Колокольцев Владимир Александрович" color="0xFF9900" documentsCount="149" />
+  <GraphObject id="788776763" name="Лавров Сергей Викторович" color="0xFF3333" documentsCount="2032" />
+  <GraphObject id="788776766" name="Мединский Владимир Ростиславович" color="0xCC3366" documentsCount="537" />
+  <GraphObject id="788776765" name="Силуанов Антон Германович" color="0xCC66CC" documentsCount="245" />
+  <GraphObject id="788776767" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+ </GraphObjects>
+ <GraphLinks>
+  <GraphLink fromId="788776763" toId="788776766" documentsCount="28" />
+  <GraphLink fromId="788776763" toId="788776767" documentsCount="26" />
+  <GraphLink fromId="788776766" toId="788776767" documentsCount="33" />
+  <GraphLink fromId="788776765" toId="788776767" documentsCount="7" />
+  <GraphLink fromId="788776764" toId="788776766" documentsCount="20" />
+  <GraphLink fromId="788776763" toId="788776764" documentsCount="1" />
+  <GraphLink fromId="788776764" toId="788776765" documentsCount="3" />
+  <GraphLink fromId="788776764" toId="788776767" documentsCount="10" />
+  <GraphLink fromId="788776765" toId="788776766" documentsCount="1" />
+ </GraphLinks>
+</SemanticMap>

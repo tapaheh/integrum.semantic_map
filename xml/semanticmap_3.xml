@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SemanticMap taskResultId="677826880" baseUrl="MonitoringOnline/Announcements.aspx?trid=677826880&amp;tid=80215" state="OK">
+ <GraphObjects>
+  <GraphObject id="1" name="Колокольцев Владимир Александрович" color="0xFF9900" documentsCount="149" />
+  <GraphObject id="2" name="Лавров Сергей Викторович" color="0xFF3333" documentsCount="2032" />
+  <GraphObject id="3" name="Мединский Владимир Ростиславович" color="0xCC3366" documentsCount="537" />
+  <GraphObject id="4" name="Силуанов Антон Германович" color="0xCC66CC" documentsCount="245" />
+  <GraphObject id="5" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="6" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="7" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="8" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="9" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="10" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="11" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="12" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="13" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="14" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="15" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <!--GraphObject id="16" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="17" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="18" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="19" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="20" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" />
+  <GraphObject id="21" name="Шойгу Сергей Кужугетович" color="0x6600FF" documentsCount="1299" /-->
+
+ </GraphObjects>
+ <GraphLinks>
+  <GraphLink fromId="1" toId="2" documentsCount="28" />
+  <GraphLink fromId="1" toId="4" documentsCount="26" />
+  <GraphLink fromId="2" toId="3" documentsCount="33" />
+  <GraphLink fromId="2" toId="5" documentsCount="7" />
+  <GraphLink fromId="3" toId="5" documentsCount="20" />
+  <GraphLink fromId="3" toId="7" documentsCount="1" />
+  <GraphLink fromId="5" toId="6" documentsCount="3" />
+  <GraphLink fromId="5" toId="10" documentsCount="10" />
+  <GraphLink fromId="7" toId="6" documentsCount="1" />
+  <GraphLink fromId="7" toId="9" documentsCount="1" />
+  <GraphLink fromId="7" toId="10" documentsCount="1" />
+  <GraphLink fromId="8" toId="9" documentsCount="1" />
+  <GraphLink fromId="9" toId="10" documentsCount="1" />
+  <GraphLink fromId="2" toId="9" documentsCount="1" />
+  <GraphLink fromId="3" toId="8" documentsCount="1" />
+  <GraphLink fromId="4" toId="9" documentsCount="1" />
+  <GraphLink fromId="11" toId="1" documentsCount="1" />
+  <GraphLink fromId="11" toId="10" documentsCount="1" />
+  <GraphLink fromId="11" toId="14" documentsCount="1" />
+  <GraphLink fromId="12" toId="2" documentsCount="1" />
+  <GraphLink fromId="12" toId="6" documentsCount="1" />
+  <GraphLink fromId="13" toId="9" documentsCount="1" />
+  <GraphLink fromId="13" toId="8" documentsCount="1" />
+  <GraphLink fromId="13" toId="4" documentsCount="1" />
+  <GraphLink fromId="14" toId="7" documentsCount="1" />
+  <GraphLink fromId="14" toId="3" documentsCount="1" />
+  <GraphLink fromId="15" toId="4" documentsCount="1" />
+  <GraphLink fromId="15" toId="8" documentsCount="1" />
+  <GraphLink fromId="15" toId="10" documentsCount="1" />
+ </GraphLinks>
+</SemanticMap>

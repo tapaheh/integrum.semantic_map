@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- http://jointjs.com -->
+<!-- включает jquery 1.9.1, Backbone.js 1.0.0 -->
+<script src="./lib/js/joint.min.js" type="text/javascript" language="javascript"></script>
+
+<script src="./lib/js/jquery-mousewheel-master/jquery.mousewheel.min.js"></script>
+<script src="./lib/js/jquery.cookie.js"></script>
+<script src="./lib/js/jquery.xml2json.js" type="text/javascript" language="javascript"></script>
+<script src="./lib/js/jquery.browser.js" type="text/javascript" language="javascript"></script>
+<script src="./lib/js/integrum.semanticMap.js" type="text/javascript" language="javascript"></script>
+
+<!-- стили диаграммы и jointjs -->
+<link rel="stylesheet" href="./lib/css/integrum.semanticMap.css" type="text/css"/>
+<!-- стили html страницы -->
+<link rel="stylesheet" href="./lib/css/page.css" type="text/css"/>
+
+<title>Семантическая карта</title>
+
+<script type="text/javascript">
+    $(function(){
+        if ($.browser.msie && $.browser.majorVersion < 9){
+            $('#canvas').html('<b>Для IE8 и ниже отображается флеш версия диаграммы</b>')
+        } else {
+            //xml файл для отрисовки диаграммы
+            var f = $.urlParam('f') ? $.urlParam('f') : 'semanticmap_asIs.xml';
+
+            var options = {
+                xml:'xml/' + f //обязательный параметр - путь к xml файлу
+            };
+            $('#canvas').semanticMap(options);
+        }
+    });
+</script>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container-fluid">
+        <div id="menu-header-container" class="i-head">&nbsp;</div>
+
+        <div class="companie-name">
+            Семантическая карта
+        </div>
+
+        <div class="page-header search-form-ui">
+            <span class="page-header-title">Семантическая карта</span>
+        </div>
+
+        <table class="content-table">
+            <tbody>
+            <tr>
+                <td class="content-left">
+                    <div id="canvas-padder">
+                        <!-- элемент для отрисовки диаграммы -->
+                        <div id="canvas"></div>
+                    </div>
+                </td>
+                <td class="menu-right">
+                    <div class="main-menu-vertical">
+                        <ul>
+                            <li>
+                                <div class="item-header">
+                                    Загрузить XML:
+                                </div>
+                                <div class="item-content collapsed">
+                                    <ul>
+                                        <li>
+                                            <a class="f-link" href="index.html?f=semanticmap_asIs.xml">5 объектов</a>
+                                        </li>
+                                        <li>
+                                            <a class="f-link" href="index.html?f=semanticmap_2.xml">10 объектов</a>
+                                        </li>
+                                        <li>
+                                            <a class="f-link" href="index.html?f=semanticmap_3.xml">15 объектов</a>
+                                        </li>
+                                        <li>
+                                            <a class="f-link" href="index.html?f=semanticmap_4.xml">20 объектов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<br/><br/>
+</body>
+</html>     
