@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SemanticMap taskResultId="170617109" baseUrl="MonitoringOnline/Announcements.aspx?trid=170617109&amp;tid=16538" state="OK">
+ <GraphObjects>
+  <GraphObject id="177058684" name="Билайн" color="0xFF9900" documentsCount="8" />
+  <GraphObject id="177058682" name="Газпром" color="0xFF3333" documentsCount="97" />
+  <GraphObject id="177058685" name="МегаФон" color="0xCC3366" documentsCount="5" />
+  <GraphObject id="177058681" name="Мобильные Телесистемы (МТС) Мобильные Телесистемы  Мобильные Телесистемы " color="0xCC66CC" documentsCount="6" />
+  <GraphObject id="177058683" name="Сбербанк России" color="0x6600FF" documentsCount="91" />
+ </GraphObjects>
+ <GraphLinks>
+  <GraphLink fromId="177058682" toId="177058683" documentsCount="2" />
+  <GraphLink fromId="177058681" toId="177058684" documentsCount="3" />
+  <GraphLink fromId="177058681" toId="177058685" documentsCount="2" />
+  <GraphLink fromId="177058684" toId="177058685" documentsCount="2" />
+ </GraphLinks>
+</SemanticMap>
